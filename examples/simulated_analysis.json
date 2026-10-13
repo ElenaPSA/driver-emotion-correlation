@@ -1,0 +1,460 @@
+{
+  "method": "Spearman rank association on receipt-time buckets",
+  "bucket_seconds": 1.0,
+  "lag_seconds": 0.0,
+  "max_gap_seconds": 2.0,
+  "min_confidence": 0.0,
+  "matched_buckets": 240,
+  "by_emotion": {
+    "angry": [
+      {
+        "signal": "tailgating_time_share",
+        "spearman_rho": 0.750014,
+        "absolute_rho": 0.750014,
+        "pairs": 240
+      },
+      {
+        "signal": "speeding_distance_share",
+        "spearman_rho": 0.75001,
+        "absolute_rho": 0.75001,
+        "pairs": 240
+      },
+      {
+        "signal": "aggressiveness_level",
+        "spearman_rho": 0.750007,
+        "absolute_rho": 0.750007,
+        "pairs": 240
+      },
+      {
+        "signal": "hard_corner_per_100km",
+        "spearman_rho": 0.750007,
+        "absolute_rho": 0.750007,
+        "pairs": 240
+      },
+      {
+        "signal": "harsh_accel_per_100km",
+        "spearman_rho": 0.750007,
+        "absolute_rho": 0.750007,
+        "pairs": 240
+      },
+      {
+        "signal": "harsh_brake_per_100km",
+        "spearman_rho": 0.750007,
+        "absolute_rho": 0.750007,
+        "pairs": 240
+      },
+      {
+        "signal": "headway_mean_s",
+        "spearman_rho": -0.750007,
+        "absolute_rho": 0.750007,
+        "pairs": 240
+      },
+      {
+        "signal": "jerk_max_mps3",
+        "spearman_rho": 0.750007,
+        "absolute_rho": 0.750007,
+        "pairs": 240
+      },
+      {
+        "signal": "jerk_mean_mps3",
+        "spearman_rho": 0.750007,
+        "absolute_rho": 0.750007,
+        "pairs": 240
+      },
+      {
+        "signal": "speed_max_kmh",
+        "spearman_rho": 0.750007,
+        "absolute_rho": 0.750007,
+        "pairs": 240
+      },
+      {
+        "signal": "speed_mean_kmh",
+        "spearman_rho": 0.750007,
+        "absolute_rho": 0.750007,
+        "pairs": 240
+      },
+      {
+        "signal": "style_index",
+        "spearman_rho": 0.750007,
+        "absolute_rho": 0.750007,
+        "pairs": 240
+      }
+    ],
+    "happy": [
+      {
+        "signal": "tailgating_time_share",
+        "spearman_rho": -0.250005,
+        "absolute_rho": 0.250005,
+        "pairs": 240
+      },
+      {
+        "signal": "speeding_distance_share",
+        "spearman_rho": -0.250003,
+        "absolute_rho": 0.250003,
+        "pairs": 240
+      },
+      {
+        "signal": "aggressiveness_level",
+        "spearman_rho": -0.250002,
+        "absolute_rho": 0.250002,
+        "pairs": 240
+      },
+      {
+        "signal": "hard_corner_per_100km",
+        "spearman_rho": -0.250002,
+        "absolute_rho": 0.250002,
+        "pairs": 240
+      },
+      {
+        "signal": "harsh_accel_per_100km",
+        "spearman_rho": -0.250002,
+        "absolute_rho": 0.250002,
+        "pairs": 240
+      },
+      {
+        "signal": "harsh_brake_per_100km",
+        "spearman_rho": -0.250002,
+        "absolute_rho": 0.250002,
+        "pairs": 240
+      },
+      {
+        "signal": "headway_mean_s",
+        "spearman_rho": 0.250002,
+        "absolute_rho": 0.250002,
+        "pairs": 240
+      },
+      {
+        "signal": "jerk_max_mps3",
+        "spearman_rho": -0.250002,
+        "absolute_rho": 0.250002,
+        "pairs": 240
+      },
+      {
+        "signal": "jerk_mean_mps3",
+        "spearman_rho": -0.250002,
+        "absolute_rho": 0.250002,
+        "pairs": 240
+      },
+      {
+        "signal": "speed_max_kmh",
+        "spearman_rho": -0.250002,
+        "absolute_rho": 0.250002,
+        "pairs": 240
+      },
+      {
+        "signal": "speed_mean_kmh",
+        "spearman_rho": -0.250002,
+        "absolute_rho": 0.250002,
+        "pairs": 240
+      },
+      {
+        "signal": "style_index",
+        "spearman_rho": -0.250002,
+        "absolute_rho": 0.250002,
+        "pairs": 240
+      }
+    ],
+    "neutral": [
+      {
+        "signal": "tailgating_time_share",
+        "spearman_rho": -0.750014,
+        "absolute_rho": 0.750014,
+        "pairs": 240
+      },
+      {
+        "signal": "speeding_distance_share",
+        "spearman_rho": -0.75001,
+        "absolute_rho": 0.75001,
+        "pairs": 240
+      },
+      {
+        "signal": "aggressiveness_level",
+        "spearman_rho": -0.750007,
+        "absolute_rho": 0.750007,
+        "pairs": 240
+      },
+      {
+        "signal": "hard_corner_per_100km",
+        "spearman_rho": -0.750007,
+        "absolute_rho": 0.750007,
+        "pairs": 240
+      },
+      {
+        "signal": "harsh_accel_per_100km",
+        "spearman_rho": -0.750007,
+        "absolute_rho": 0.750007,
+        "pairs": 240
+      },
+      {
+        "signal": "harsh_brake_per_100km",
+        "spearman_rho": -0.750007,
+        "absolute_rho": 0.750007,
+        "pairs": 240
+      },
+      {
+        "signal": "headway_mean_s",
+        "spearman_rho": 0.750007,
+        "absolute_rho": 0.750007,
+        "pairs": 240
+      },
+      {
+        "signal": "jerk_max_mps3",
+        "spearman_rho": -0.750007,
+        "absolute_rho": 0.750007,
+        "pairs": 240
+      },
+      {
+        "signal": "jerk_mean_mps3",
+        "spearman_rho": -0.750007,
+        "absolute_rho": 0.750007,
+        "pairs": 240
+      },
+      {
+        "signal": "speed_max_kmh",
+        "spearman_rho": -0.750007,
+        "absolute_rho": 0.750007,
+        "pairs": 240
+      },
+      {
+        "signal": "speed_mean_kmh",
+        "spearman_rho": -0.750007,
+        "absolute_rho": 0.750007,
+        "pairs": 240
+      },
+      {
+        "signal": "style_index",
+        "spearman_rho": -0.750007,
+        "absolute_rho": 0.750007,
+        "pairs": 240
+      }
+    ],
+    "stressed": [
+      {
+        "signal": "tailgating_time_share",
+        "spearman_rho": 0.250005,
+        "absolute_rho": 0.250005,
+        "pairs": 240
+      },
+      {
+        "signal": "speeding_distance_share",
+        "spearman_rho": 0.250003,
+        "absolute_rho": 0.250003,
+        "pairs": 240
+      },
+      {
+        "signal": "aggressiveness_level",
+        "spearman_rho": 0.250002,
+        "absolute_rho": 0.250002,
+        "pairs": 240
+      },
+      {
+        "signal": "hard_corner_per_100km",
+        "spearman_rho": 0.250002,
+        "absolute_rho": 0.250002,
+        "pairs": 240
+      },
+      {
+        "signal": "harsh_accel_per_100km",
+        "spearman_rho": 0.250002,
+        "absolute_rho": 0.250002,
+        "pairs": 240
+      },
+      {
+        "signal": "harsh_brake_per_100km",
+        "spearman_rho": 0.250002,
+        "absolute_rho": 0.250002,
+        "pairs": 240
+      },
+      {
+        "signal": "headway_mean_s",
+        "spearman_rho": -0.250002,
+        "absolute_rho": 0.250002,
+        "pairs": 240
+      },
+      {
+        "signal": "jerk_max_mps3",
+        "spearman_rho": 0.250002,
+        "absolute_rho": 0.250002,
+        "pairs": 240
+      },
+      {
+        "signal": "jerk_mean_mps3",
+        "spearman_rho": 0.250002,
+        "absolute_rho": 0.250002,
+        "pairs": 240
+      },
+      {
+        "signal": "speed_max_kmh",
+        "spearman_rho": 0.250002,
+        "absolute_rho": 0.250002,
+        "pairs": 240
+      },
+      {
+        "signal": "speed_mean_kmh",
+        "spearman_rho": 0.250002,
+        "absolute_rho": 0.250002,
+        "pairs": 240
+      },
+      {
+        "signal": "style_index",
+        "spearman_rho": 0.250002,
+        "absolute_rho": 0.250002,
+        "pairs": 240
+      }
+    ]
+  },
+  "emotion_transition": [
+    {
+      "signal": "abs_change_tailgating_time_share",
+      "spearman_rho": 0.362939,
+      "absolute_rho": 0.362939,
+      "pairs": 239
+    },
+    {
+      "signal": "abs_change_speeding_distance_share",
+      "spearman_rho": 0.362938,
+      "absolute_rho": 0.362938,
+      "pairs": 239
+    },
+    {
+      "signal": "abs_change_aggressiveness_level",
+      "spearman_rho": 0.362937,
+      "absolute_rho": 0.362937,
+      "pairs": 239
+    },
+    {
+      "signal": "abs_change_hard_corner_per_100km",
+      "spearman_rho": 0.362936,
+      "absolute_rho": 0.362936,
+      "pairs": 239
+    },
+    {
+      "signal": "abs_change_harsh_accel_per_100km",
+      "spearman_rho": 0.362936,
+      "absolute_rho": 0.362936,
+      "pairs": 239
+    },
+    {
+      "signal": "abs_change_harsh_brake_per_100km",
+      "spearman_rho": 0.362936,
+      "absolute_rho": 0.362936,
+      "pairs": 239
+    },
+    {
+      "signal": "abs_change_headway_mean_s",
+      "spearman_rho": 0.362936,
+      "absolute_rho": 0.362936,
+      "pairs": 239
+    },
+    {
+      "signal": "abs_change_jerk_max_mps3",
+      "spearman_rho": 0.362936,
+      "absolute_rho": 0.362936,
+      "pairs": 239
+    },
+    {
+      "signal": "abs_change_jerk_mean_mps3",
+      "spearman_rho": 0.362936,
+      "absolute_rho": 0.362936,
+      "pairs": 239
+    },
+    {
+      "signal": "abs_change_speed_max_kmh",
+      "spearman_rho": 0.362936,
+      "absolute_rho": 0.362936,
+      "pairs": 239
+    },
+    {
+      "signal": "abs_change_speed_mean_kmh",
+      "spearman_rho": 0.362936,
+      "absolute_rho": 0.362936,
+      "pairs": 239
+    },
+    {
+      "signal": "abs_change_style_index",
+      "spearman_rho": 0.362936,
+      "absolute_rho": 0.362936,
+      "pairs": 239
+    }
+  ],
+  "emotion_transition_direction": [
+    {
+      "signal": "change_tailgating_time_share",
+      "spearman_rho": 0.230961,
+      "absolute_rho": 0.230961,
+      "pairs": 239
+    },
+    {
+      "signal": "change_aggressiveness_level",
+      "spearman_rho": 0.23096,
+      "absolute_rho": 0.23096,
+      "pairs": 239
+    },
+    {
+      "signal": "change_harsh_accel_per_100km",
+      "spearman_rho": 0.23096,
+      "absolute_rho": 0.23096,
+      "pairs": 239
+    },
+    {
+      "signal": "change_headway_mean_s",
+      "spearman_rho": -0.23096,
+      "absolute_rho": 0.23096,
+      "pairs": 239
+    },
+    {
+      "signal": "change_speeding_distance_share",
+      "spearman_rho": 0.23096,
+      "absolute_rho": 0.23096,
+      "pairs": 239
+    },
+    {
+      "signal": "change_hard_corner_per_100km",
+      "spearman_rho": 0.230959,
+      "absolute_rho": 0.230959,
+      "pairs": 239
+    },
+    {
+      "signal": "change_harsh_brake_per_100km",
+      "spearman_rho": 0.230959,
+      "absolute_rho": 0.230959,
+      "pairs": 239
+    },
+    {
+      "signal": "change_jerk_max_mps3",
+      "spearman_rho": 0.230959,
+      "absolute_rho": 0.230959,
+      "pairs": 239
+    },
+    {
+      "signal": "change_jerk_mean_mps3",
+      "spearman_rho": 0.230959,
+      "absolute_rho": 0.230959,
+      "pairs": 239
+    },
+    {
+      "signal": "change_speed_max_kmh",
+      "spearman_rho": 0.230959,
+      "absolute_rho": 0.230959,
+      "pairs": 239
+    },
+    {
+      "signal": "change_speed_mean_kmh",
+      "spearman_rho": 0.230959,
+      "absolute_rho": 0.230959,
+      "pairs": 239
+    },
+    {
+      "signal": "change_style_index",
+      "spearman_rho": 0.230959,
+      "absolute_rho": 0.230959,
+      "pairs": 239
+    }
+  ],
+  "warnings": [
+    "Synthetic simulation input: the relationships were deliberately encoded and are not evidence about real drivers.",
+    "Associations are not evidence of causation or proof that a signal caused an emotion change.",
+    "The profiler's score fields are session-level aggregates, not raw per-frame measurements; interpret their associations as coarse.",
+    "Repeated time buckets are not statistically independent; use the ranking for exploration, not clinical or safety decisions."
+  ]
+}
