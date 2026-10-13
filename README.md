@@ -115,6 +115,31 @@ driving fields co-vary with the same underlying style. See
 [`explanations.md`](explanations.md) for the complete correlation tables and
 an explanation of how to interpret them.
 
+To test a less direct relationship in which angry states tend toward calm
+driving and happy states tend toward faster, more assertive driving, generate
+the additional 20-minute `not-obvious` fixture and analyze it:
+
+```powershell
+driver-emotion-correlation simulate --profile not-obvious `
+  --output examples\not_obvious_session.jsonl --seconds 1200 --seed 20261013
+
+driver-emotion-correlation analyze examples\not_obvious_session.jsonl `
+  --bucket-seconds 1 --lag-seconds 0 --min-pairs 30 `
+  --output examples\not_obvious_analysis.json
+
+driver-emotion-correlation explain examples\not_obvious_session.jsonl `
+  --bucket-seconds 1 --output examples\not_obvious_timeline.md
+```
+
+The resulting [input](examples/not_obvious_session.jsonl) and
+[analysis](examples/not_obvious_analysis.json) are checked in. The
+[qualitative transition timeline](examples/not_obvious_timeline.md) lists each
+emotion-label change and the driving-signal shifts in adjacent samples. The
+[explanation](explanations.md#not-obvious-simulation-results) discusses the
+measured associations and clarifies that this remains a designed simulation,
+not evidence about real drivers. A coincident signal shift is not proof that
+the signal provoked the emotion change.
+
 The checked-in run produced 240 matched buckets. These are the top example
 state associations; features in the same style block move together:
 
