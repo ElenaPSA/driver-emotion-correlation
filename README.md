@@ -108,10 +108,12 @@ driver-emotion-correlation analyze examples\simulated_session.jsonl `
 The checked-in [simulated input](examples/simulated_session.jsonl) contains 240
 paired one-second samples (480 events); the [sample analysis report](examples/simulated_analysis.json)
 was produced by the application's `analyze` command. Recreate it with the
-commands above. The simulation cycles through neutral/calm, happy/balanced,
-stressed/assertive, and angry/aggressive blocks. It adds small deterministic
-measurement variation, while intentionally making multiple driving fields
-co-vary with the same underlying style.
+commands above. The 240-second simulation cycles through neutral/calm, happy/balanced,
+stressed/assertive, and angry/aggressive 20-second blocks three times. It adds
+small deterministic measurement variation, while intentionally making multiple
+driving fields co-vary with the same underlying style. See
+[`explanations.md`](explanations.md) for the complete correlation tables and
+an explanation of how to interpret them.
 
 The checked-in run produced 240 matched buckets. These are the top example
 state associations; features in the same style block move together:
