@@ -76,8 +76,9 @@ def generate_session(
     """Write a deterministic, explicitly synthetic paired-stream session.
 
     Each second contains one emotion detection and one detailed driving profile.
-    Four 60-second blocks deliberately couple driving style and emotion; this
-    fixture verifies collection/analysis behavior, not real-world causality.
+    Four emotion/style scenarios repeat in short blocks and are deliberately
+    coupled; this fixture verifies collection/analysis behavior, not real-world
+    causality.
     """
     if seconds < len(_SCENARIOS) * 2:
         raise ValueError(
